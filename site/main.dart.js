@@ -100627,7 +100627,7 @@ i=B.aw(["Content-Type","application/json"],j,j)
 h=A.cc.o0(B.aw(["transactionRef",a],j,j))
 p=4
 s=7
-return B.S(n.a.xs("http://52.4.245.195:4010/v1/transaction/verify",h,B.aDb(i,"POST"),t.z),$async$vR)
+return B.S(n.a.xs("https://innovationlab.movitext.com/pos/v1/transaction/verify",h,B.aDb(i,"POST"),t.z),$async$vR)
 case 7:m=c
 if(m.c===201){l=m.a
 j=J.k(l,"status")
@@ -100661,7 +100661,7 @@ h=B.aw(["Content-Type","application/json"],i,i)
 g=A.cc.o0(B.aw(["bankPhoneNumber",b,"storePhoneNumber",c,"amount",a],i,t.K))
 p=4
 s=7
-return B.S(n.a.xs("http://52.4.245.195:4010/v1/transaction/qr-link",g,B.aDb(h,"POST"),t.z),$async$tO)
+return B.S(n.a.xs("https://innovationlab.movitext.com/pos/v1/transaction/qr-link",g,B.aDb(h,"POST"),t.z),$async$tO)
 case 7:m=e
 if(m.c===201){l=m.a
 i=J.k(l,"ref")
@@ -100693,7 +100693,7 @@ var $async$u2=B.Q(function(f,g){if(f===1)return B.M(g,r)
 while(true)switch(s){case 0:o=t.N
 n=B.aw(["Content-Type","application/json"],o,o)
 s=3
-return B.S(p.a.xs("http://52.4.245.195:4010/v1/transaction",A.cc.o0(B.aw(["amount",a,"to",e,"bankPhoneNumber",b,"storePhoneNumber",d,"channel",c],o,t.K)),B.aDb(n,"POST"),t.z),$async$u2)
+return B.S(p.a.xs("https://innovationlab.movitext.com/pos/v1/transaction",A.cc.o0(B.aw(["amount",a,"to",e,"bankPhoneNumber",b,"storePhoneNumber",d,"channel",c],o,t.K)),B.aDb(n,"POST"),t.z),$async$u2)
 case 3:m=g
 if(m.c===201){q=m.a
 s=1
